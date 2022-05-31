@@ -8,8 +8,8 @@ const Header = () => {
            <div>
                <h2>Best Free Books</h2>
            </div>
-           <div>
-               <nav className='nav-items-container'>
+           <div className='nav-items-container'>
+               <nav className=''>
                 <CustomLink to='/home'>HOME</CustomLink>
                 <CustomLink to="/reviews">REVIEWS</CustomLink>
                 <CustomLink to="/dashboard">DASHBOARD</CustomLink>

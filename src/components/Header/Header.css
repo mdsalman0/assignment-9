@@ -6,16 +6,27 @@
     padding: 20px 60px;
     align-items: center;
 }
-.nav-items-container{
+.nav-items-container nav{
     display: flex;
     gap: 10px;
 }
-.nav-items-container a{
+.nav-items-container nav a{
     text-decoration: none;
     background-color: lightslategray;
     border-radius: 10px;
     padding: 5px;
 }
 
+@media (min-width: 481px) and (max-width: 767px){
+    .header-container{
+        display: block;
+    }
+    .nav-items-container nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 30px;
+    }
+}
 
 
