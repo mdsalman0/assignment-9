@@ -1,0 +1,21 @@
+.header-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+}
+.nav-items-container{
+    display: flex;
+    gap: 10px;
+}
+.nav-items-container a{
+    text-decoration: none;
+    background-color: lightslategray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
