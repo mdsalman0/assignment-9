@@ -16,7 +16,9 @@ const Home = () => {
                     <h1>The Best Book</h1>
                     <h1>Best Free Book</h1>
                     <p>The book is very good,I feel very good reading the book,The book will be very useful in the course of life, very good book...The book is very good,I feel very good reading the book,The book will be very useful in the course of life, very good book</p>
-                    <button>Book Details</button>
+                    <Link to='/about'>
+                    <button>Book Related</button>
+                    </Link>
                 </div>
                 <div>
                     <h2>this is image</h2>

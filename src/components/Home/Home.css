@@ -45,6 +45,13 @@
     .book-container{
         display: block;
     }
+    .element-style p{
+        width: 400px;
+    }
+    .element-style h1{
+        font-size: 30px;
+        font-weight: bold;
+      }
 }
 
 @media (min-width: 481px) and (max-width: 767px){
