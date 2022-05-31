@@ -20,7 +20,7 @@
 @media (min-width: 481px) and (max-width: 767px){
     .header-container{
         display: block;
-    }
+}
     .nav-items-container nav{
         display: grid;
         grid-template-columns: 1fr;
