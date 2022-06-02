@@ -1,0 +1,52 @@
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.not-page{
+    background-color: lightslategray;
+    color: white;
+    padding: 40px;
+    border: 1px solid hotpink;
+    border-radius: 5px;
+}
+.not-page hr{
+    color: aqua;
+    width: 200px;
+    margin: auto;
+    padding: 1px;
+}
+.not-page h2{
+    width: 400px;
+    margin-top: 10px;
+}
+.not-page p{
+    width: 300px;
+    margin:auto
+}
+
+
+/* responsive */
+@media (min-width: 481px) and (max-width: 767px){
+    .not-found{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        margin-top: 40px;
+        line-height: 0px;
+    }
+    .not-page{
+        margin: auto;
+        width: 400px;
+        text-align: center;
+        padding: 20px 30px;
+    }
+    .not-page h2{
+        width: 300px;
+        padding-bottom: 10px;
+    }
+    .not-page p{
+        height: 20px;
+        width: 300px;
+    }
+}

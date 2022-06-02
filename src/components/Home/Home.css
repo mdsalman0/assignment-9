@@ -65,6 +65,9 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .book-container{
+        display: block;
+    }
 }
 @media (min-width: 1280px) {
     .items-container{
