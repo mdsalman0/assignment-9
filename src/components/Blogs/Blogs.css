@@ -1,0 +1,14 @@
+.blogs-container{
+    width: 700px;
+    margin: auto;
+}
+.blogs-container h3{
+ margin-top: 10px;
+}
+
+@media (min-width: 481px) and (max-width: 767px)  {
+    .blogs-container{
+        width: 400px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,48 @@
+.chart-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 20px;
+}
+.lineChart hr{
+    width: 140px;
+    margin: auto;
+}
+.barChart hr{
+    width: 140px;
+    margin: auto;
+}
+.com-chart hr{
+    width: 220px;
+    margin: auto;
+}
+.pie h3{
+    margin-top: 50px;
+}
+.pie hr{
+    width: 125px;
+    margin: auto;
+    margin-left: 132px;
+}
+.ComposedChart{
+    margin-top: 50px;
+}
+.pie h3{
+    padding-right: 260px;
+}
+/* .pie-chart{
+    margin-bottom: -40px;
+    margin-right: 250px;
+    margin-top: 50px;
+} */
+
+/* responsive */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .chart-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+}

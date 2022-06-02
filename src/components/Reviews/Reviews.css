@@ -3,11 +3,20 @@
     grid-template-columns: repeat(3,1fr);
     margin-left: 35px;
     gap: 20px;
+    border-radius: 10px;
 }
 
 @media (min-width: 481px) and (max-width: 767px){
     .reviews-container{
         display: grid;
         grid-template-columns: 1fr;
+        margin-right: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .reviews-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-right: 0;
     }
 }

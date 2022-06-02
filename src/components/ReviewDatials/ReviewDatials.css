@@ -4,4 +4,6 @@
     width: 400px;
     padding: 10px;
     margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(217, 210, 210)  6px 10px 10px 5px;
 }

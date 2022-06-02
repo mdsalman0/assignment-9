@@ -34,7 +34,7 @@
 }
 .add-reviews a{
     text-decoration: none;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.577);
     color: white;
     padding: 10px 50px;
     border-radius: 10px;
